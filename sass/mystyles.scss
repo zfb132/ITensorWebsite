@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+
+// Set your brand colors
+$it-blue: #4F7CB8;
+$it-gold: #F7CC56;
+$black: #000000;
+$white: #FFFFFF;
+
+// Update Bulma's global variables
+$family-sans-serif: "Noto Sans", sans-serif;
+$primary: $it-blue;
+$link: $it-blue;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$gap: 52px;
+
+$tabs-toggle-link-active-background-color: hsl(0, 0%, 14%);
+$tabs-toggle-link-radius: 0px;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+$size-1: 3rem;
+$size-2: 2.5rem;
+$size-3: 2rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 1rem;
+$size-7: 0.75rem;
+$body-font-size: 1.2em;
+
+@import "../bulma/bulma.sass";
