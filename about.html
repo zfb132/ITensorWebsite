@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/img/favicon.ico"/>
+    <title>ITensor</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <a href="/" class="navbar-item has-text-weight-bold">ITensor</a>
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Documentation
+        </a>
+
+        <div class="navbar-dropdown">
+          <a href="https://itensor.github.io/ITensors.jl/stable" class="navbar-item">
+            Julia
+          </a>
+          <a href="/docs.cgi" class="navbar-item">
+            C++
+          </a>
+        </div>
+      </div>
+
+      <a href="/support/" class="navbar-item">
+        Discuss
+      </a>
+
+      <a href="/about.html" class="navbar-item is-active">
+        About
+      </a>
+
+    </div>
+
+  </div>
+  </nav>
+
+  <section class="section"><div class="container is-max-desktop">
+
+    <p class="title is-4">ITensor Collaboration</p>
+
+    <div class="block">
+
+      <div class="columns is-vcentered">
+        <div class="column has-text-left">
+          <p>
+          <strong>Matthew Fishman</strong> <br/>
+          Flatiron Institute <br/>
+          Center for Computational Quantum Physics (CCQ) <br/>
+          mfishman__itensor.org <br/>
+          </p>
+        </div>
+        <div class="column has-text-centered">
+          <img class="portrait" src="/img/MatthewFishman.jpg"/>
+        </div>
+      </div>
+
+
+      <div class="columns is-vcentered">
+        <div class="column has-text-left">
+          <p>
+          <strong>E. Miles Stoudenmire</strong> <br/>
+          Flatiron Institute <br/>
+          Center for Computational Quantum Physics (CCQ) <br/>
+          mstoudenmire__itensor.org <br/>
+          </p>
+        </div>
+        <div class="column has-text-centered">
+          <img class="portrait" src="/img/MilesStoudenmire.jpg"/>
+        </div>
+      </div>
+
+      <div class="columns is-vcentered">
+        <div class="column has-text-left">
+          <p>
+          <strong>Steven R. White</strong> <br/>
+          University of California Irvine<br/>
+          srwhite__uci.edu<br/>
+          <a href="http://www.faculty.uci.edu/profile.cfm?faculty_id=2190">Homepage</a>
+          </p>
+        </div>
+        <div class="column has-text-centered">
+          <img class="portrait" src="/img/StevenWhite.jpg"/>
+        </div>
+      </div>
+
+    </div>
+
+    <!--
+
+      Support
+
+    -->
+    <p class="title is-4">Support</p>
+
+    <div class="block">
+
+      <div class="columns is-vcentered">
+        <div class="column has-text-left">
+          <p>
+          We are grateful for ongoing support from the Simons Foundation, through the Flatiron Institute, Center for Computational Quantum Physics.
+          </p>
+        </div>
+        <div class="column has-text-centered">
+          <img width="250px" style="" src="/img/simons_found_logo.jpg"/>
+          <img width="250px" style="" src="/img/flatiron_logo.png"/>
+        </div>
+      </div>
+
+      <div class="columns is-vcentered">
+        <div class="column has-text-left">
+          <p>
+          ITensor was initiated through the generous support of the DOE under award DE-SC0008696 and the NSF under award DMR-1812558, both of which continue to support the efforts of Steven R. White and his group.
+          </p>
+        </div>
+        <div class="column has-text-centered">
+          <img width="200px" src="/img/doe.png"/>
+        </div>
+      </div>
+
+    </div>
+
+    <!--
+
+      Citing
+
+    -->
+    <p class="title is-4">Citing ITensor</p>
+
+    <div class="block">
+
+      <p>
+      If you publish work showing results obtained with ITensor, we ask that you cite the paper:
+      </p>
+      <br/>
+
+      <p>
+      <i>"The ITensor Software Library for Tensor Network Calculations",</i><br/>
+      Matthew Fishman, Steven R. White, E. Miles Stoudenmire,<br/>
+      <a href="https://arxiv.org/abs/2007.14822">arxiv:2007.14822</a>
+      </p>
+      <br/>
+
+      <p>
+      You may use the following BibTex entry to cite in LaTeX documents:
+      <pre>
+@misc{itensor,
+  title={The \mbox{ITensor} Software Library for Tensor Network Calculations},
+  author={Matthew Fishman and Steven R. White and E. Miles Stoudenmire},
+  year={2020},
+  eprint={2007.14822},
+  archivePrefix={arXiv}
+}</pre>
+      </p>
+      
+
+    </div>
+
+
+  </div></section>
+
+  <br/>
+  <br/>
+  <br/>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; 2022 ITensor Collaboration &middot; <a href="https://github.com/ITensor/ITensors.jl">ITensor Source on Github</a>
+    </p>
+  </div>
+</footer>
+
+
+  </body>
+
+<script>
+$(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+</script>
+
+
+</html>
