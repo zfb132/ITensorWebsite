@@ -337,7 +337,7 @@ pre {
 
 body {
   color: #4a4a4a;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -9498,4 +9498,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem;
+}
+
+.docs img.largeicon {
+  width: 24px;
+  padding-right: 2px;
+  vertical-align: middle;
+}
+
+.docs h1 { font-size: 2rem; }
+.docs h2 { font-size: 1.8rem; }
+.docs h3 { font-size: 1.2rem; }
+
+img.portrait {
+  border: solid black 1px;
+  padding: 2px;
+  width: 100px;
 }

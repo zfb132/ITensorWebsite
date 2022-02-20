@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
 
+
 // Set your brand colors
 $it-blue: #4F7CB8;
 $it-gold: #F7CC56;
@@ -37,3 +38,18 @@ $size-7: 0.75rem;
 $body-font-size: 1.2em;
 
 @import "../bulma/bulma.sass";
+
+.docs img.largeicon
+    {
+    width: 24px;
+    padding-right: 2px;
+    vertical-align: middle;
+    }
+
+
+img.portrait
+{
+border: solid black 1px;
+padding: 2px;
+width: 100px;
+}
