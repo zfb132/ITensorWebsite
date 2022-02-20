@@ -256,14 +256,13 @@ def generate():
             nav += "<li><a href=\"%s?page=%s&vers=%s\">%s</a></li>\n"%(this_fname,dirname,vers,dirname)
 
     if page_name != "main":
-        #nav += nav_delimiter+page_name
         nav += "<li>&nbsp;&nbsp;%s</li>\n"%(page_name)
 
-    if not (len(dirlist) == 0 and page_name == "main"):
-        #nav = "<a href=\"%s?page=main&vers=%s\">main</a>%s"%(this_fname,vers,nav)
-        nav = "<li>&nbsp;&nbsp;<a href=\"%s?page=main&vers=%s\">main</a></li>%s\n"%(this_fname,vers,nav)
+    if page_name != "main":
+        nav = "<li><a href=\"%s?page=main&vers=%s\">main</a></li>%s\n"%(this_fname,vers,nav)
+    else:
+        nav = "<li>&nbsp;main</li>%s\n"%(nav)
 
-    #nav = "<span style='float:left;'>" + nav + "</span>"
     nav = "<li><strong>C++ Documentation System</strong>&nbsp;&nbsp;</li>\n" + nav
     nav = "<nav class=\"breadcrumb\" aria-label=\"breadcrubs\"><ul>\n" + nav + "\n</ul></nav>"
 
