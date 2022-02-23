@@ -72,11 +72,11 @@ We have computed an outer product of two matrices with very little effort.
 
 ITensor offers many other features to enhance productivity:
 * Adding ITensors simply works without 
-requiring you to permute the index ordering. 
+  requiring you to permute the index ordering. 
 * ITensor data storage automatically switches from real to complex as needed,
-such as when multiplying by a complex number.
+  such as when multiplying by a complex number.
 * Sparse ITensors seamlessly interoperate with regular, dense
-ITensors.
+  ITensors.
 * Quantum-number conserving (block sparse) tensors have the same interface as dense tensors.
 
 

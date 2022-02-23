@@ -51,7 +51,7 @@ values from a function and defines the variables `U`, `S`, and `V` all in one li
 
 Diagrammatically the SVD operation above looks like:
 
-<img class="diagram" width="95%" src="docs/VERSION/book/images/SVD_Ex1.png"/>
+<img class="diagram" width="60%" src="docs/VERSION/book/images/SVD_Ex1.png"/>
 
 The guarantee of the `svd` function is that the ITensor 
 product `U*S*V` gives us back an ITensor identical to T:
