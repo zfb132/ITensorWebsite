@@ -58,6 +58,44 @@ $body-font-size: 1.2em;
 .docs h2 { font-size: 1.2rem; }
 .docs h3 { font-size: 1.0rem; }
 
+.docs code
+{
+    color: black;
+}
+
+.docs pre 
+{
+    padding: 10px 0px 0px 5px;
+    margin: 1px;
+}
+
+.docs img.centered
+    {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+.docs img.diagram
+    {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    }
+
+.docs .example_clicker
+    {
+    color: #336699;
+    cursor: pointer;
+    padding-left: 14px;
+    padding-bottom: 10px;
+    background-image: url('/img/link_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 0% 25%;
+    background-size: 12px;
+    }
+
 img.portrait
 {
 border: solid black 1px;
