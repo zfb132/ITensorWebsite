@@ -9530,8 +9530,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .docs pre {
-  padding: 10px 0px 5px 0px;
-  margin: 10px 0px 30px 0px;
+  padding: 10px 0px 10px;
+  margin: 10px 0px 30px;
 }
 
 .docs img.centered {
