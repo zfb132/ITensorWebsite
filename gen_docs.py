@@ -24,7 +24,7 @@ import markdown
 from functools import partial
 # Turn on cgitb to get nice debugging output.
 # Remember to turn off when done debugging, otherwise not secure.
-import cgitb; cgitb.enable()
+#import cgitb; cgitb.enable()
 
 #################################
 
@@ -190,8 +190,8 @@ def convert(string,vers,lang):
                 elif self.mylang == "Julia":
                     lexer = JuliaLexer()
 
-        formatter = HtmlFormatter()
-        return highlight(code, lexer, formatter)
+                formatter = HtmlFormatter()
+                return highlight(code, lexer, formatter)
         #
         # Use Mistune with Python 2 interface:
         #
