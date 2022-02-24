@@ -9,7 +9,6 @@ from cgi import FieldStorage
 import datetime
 import os
 
-import misaka #Markdown renderer
 import mistune #Markdown renderer
 from pygments import highlight
 from pygments.lexers import CppLexer
