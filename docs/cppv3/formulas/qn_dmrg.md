@@ -110,6 +110,7 @@ number throughout the DMRG calculation. The resulting code is:
         {
         int N = 100;
 
+
         auto sites = SpinOne(N,{"ConserveQNs=",true});
 
         println("site 1 =",sites(1));

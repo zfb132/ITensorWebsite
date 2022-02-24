@@ -1,1 +1,1 @@
-local_docs.py
+aws_docs.py

@@ -9,6 +9,7 @@ from cgi import FieldStorage
 import datetime
 import os
 
+import misaka #Markdown renderer
 import mistune #Markdown renderer
 from pygments import highlight
 from pygments.lexers import CppLexer
@@ -30,9 +31,6 @@ import cgitb; cgitb.enable()
 cpplex = CppLexer()
 formatter = HtmlFormatter()
 
-#def code_highlight(code):
-#    return highlight(code,cpplex,formatter)
-
 
 # version name, display name, associated language
 versions = [
@@ -53,17 +51,17 @@ nav_delimiter = "&nbsp;/&nbsp;"
 
 sys.path.append("/opt/itensor.org/")
 
-#class MyRenderer(mistune.Renderer):
-#    mylang = "C++"
-#    def block_code(self, code, lang=None):
-#        lexer = CppLexer()
-#        if self.mylang == "C++":
-#            lexer = CppLexer()
-#        elif self.mylang == "Julia":
-#            lexer = JuliaLexer()
-#
-#        formatter = HtmlFormatter()
-#        return highlight(code, lexer, formatter)
+class MyRenderer(mistune.Renderer):
+    mylang = "C++"
+    def block_code(self, code, lang=None):
+        lexer = CppLexer()
+        if self.mylang == "C++":
+            lexer = CppLexer()
+        elif self.mylang == "Julia":
+            lexer = JuliaLexer()
+
+        formatter = HtmlFormatter()
+        return highlight(code, lexer, formatter)
 
 named_link_re = re.compile("(.+?)\|(.+)")
 #code_block_re = re.compile(r"<code>\n+(.+?)</code>",flags=re.DOTALL)
@@ -201,23 +199,37 @@ def convert(string,vers,lang):
     #markdown = mistune.create_markdown(escape=False)
     #htmlstring = markdown(mdstring)
 
-    ##
-    ## Python-Markdown Renderer
-    ##
-    #htmlstring = markdown.markdown(mdstring, extensions=['codehilite'])
-    htmlstring = markdown.markdown(mdstring)
+    htmlstring = ""
+    
+    if sys.version[0] == '2':
+        #
+        # Use Mistune with Python 2 interface:
+        #
+        #renderer = mistune.Renderer(escape=False)
+        #markdown = mistune.Markdown(renderer=renderer)
+        #htmlstring = markdown(mdstring)
+
+        renderer = MyRenderer()
+        renderer.mylang = lang
+        md = mistune.Markdown(renderer=renderer)
+        htmlstring = md.render(mdstring)
+    else:
+        #
+        # Python-Markdown Renderer
+        #
+        htmlstring = markdown.markdown(mdstring, extensions=['codehilite'])
+        #
+        # Do Code Highlighting
+        #
+        def code_highlight(match):
+            return "<pre><code>"+highlight(match.group(1),cpplex,formatter)+"</pre></code>"
+        htmlstring = re.sub(r"<pre><code>(.*?)<\/code><\/pre>",code_highlight,htmlstring,flags=re.DOTALL)
 
     #
     # Convert TeX \sub commands to underscores
     #
     htmlstring = re.sub(r"\\sub",r"_",htmlstring)
 
-    #
-    # Do Code Highlighting
-    #
-    def code_highlight(match):
-        return "<pre><code>"+highlight(match.group(1),cpplex,formatter)+"</pre></code>"
-    htmlstring = re.sub(r"<pre><code>(.*?)<\/code><\/pre>",code_highlight,htmlstring,flags=re.DOTALL)
 
     return htmlstring
 
