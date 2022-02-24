@@ -9531,7 +9531,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .docs pre {
   padding: 10px 0px 0px 5px;
-  margin: 1px;
+  margin: 10px 0px 30px 0px;
 }
 
 .docs img.centered {
