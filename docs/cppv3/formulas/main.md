@@ -31,6 +31,7 @@ Formulas involving matrix product states and DMRG.
 
 * **Running DMRG**
     - [[Perform a basic DMRG calculation|formulas/basic_dmrg]]
+    - [[Perform a quantum number (QN) conserving DMRG calculation|formulas/qn_dmrg]]
     - [[Make a Ladder Hamiltonian for DMRG|formulas/ladder]]
     - [[Make a 2D Hamiltonian for DMRG|formulas/2d_dmrg]]
     - [[Compute excited states using DMRG|formulas/excited_dmrg]]
