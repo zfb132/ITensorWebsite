@@ -28,8 +28,6 @@ import cgitb; cgitb.enable()
 
 #################################
 
-cpplex = CppLexer()
-formatter = HtmlFormatter()
 
 
 # version name, display name, associated language
@@ -51,17 +49,6 @@ nav_delimiter = "&nbsp;/&nbsp;"
 
 sys.path.append("/opt/itensor.org/")
 
-class MyRenderer(mistune.Renderer):
-    mylang = "C++"
-    def block_code(self, code, lang=None):
-        lexer = CppLexer()
-        if self.mylang == "C++":
-            lexer = CppLexer()
-        elif self.mylang == "Julia":
-            lexer = JuliaLexer()
-
-        formatter = HtmlFormatter()
-        return highlight(code, lexer, formatter)
 
 named_link_re = re.compile("(.+?)\|(.+)")
 #code_block_re = re.compile(r"<code>\n+(.+?)</code>",flags=re.DOTALL)
@@ -190,25 +177,24 @@ def convert(string,vers,lang):
                 #Otherwise use the raw link name (file -> file.md)
                 mdstring += "<a href='%s?vers=%s&page=%s'>%s</a>"%(this_fname,vers,chunk,chunk)
 
-    ##
-    ## Mistune Markdown Renderer
-    ##
-    #R = MyRenderer()
-    #R.mylang = lang
-    #markdown = mistune.create_markdown(escape=False,renderer=R)
-    #markdown = mistune.create_markdown(escape=False)
-    #htmlstring = markdown(mdstring)
 
     htmlstring = ""
     
     if sys.version[0] == '2':
+        class MyRenderer(mistune.Renderer):
+            mylang = "C++"
+            def block_code(self, code, lang=None):
+                lexer = CppLexer()
+                if self.mylang == "C++":
+                    lexer = CppLexer()
+                elif self.mylang == "Julia":
+                    lexer = JuliaLexer()
+
+        formatter = HtmlFormatter()
+        return highlight(code, lexer, formatter)
         #
         # Use Mistune with Python 2 interface:
         #
-        #renderer = mistune.Renderer(escape=False)
-        #markdown = mistune.Markdown(renderer=renderer)
-        #htmlstring = markdown(mdstring)
-
         renderer = MyRenderer()
         renderer.mylang = lang
         md = mistune.Markdown(renderer=renderer)
@@ -217,10 +203,19 @@ def convert(string,vers,lang):
         #
         # Python-Markdown Renderer
         #
-        htmlstring = markdown.markdown(mdstring, extensions=['codehilite'])
+        #htmlstring = markdown.markdown(mdstring, extensions=['codehilite'])
+
+        #
+        # Mistune Renderer
+        #
+        md = mistune.create_markdown(escape=False)
+        htmlstring = md(mdstring)
+
         #
         # Do Code Highlighting
         #
+        cpplex = CppLexer()
+        formatter = HtmlFormatter()
         def code_highlight(match):
             return "<pre><code>"+highlight(match.group(1),cpplex,formatter)+"</pre></code>"
         htmlstring = re.sub(r"<pre><code>(.*?)<\/code><\/pre>",code_highlight,htmlstring,flags=re.DOTALL)
