@@ -8,6 +8,10 @@
 
 ## 2022
 
+* [Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays](https://arxiv.org/abs/2202.09372),  Sepehr Ebadi,  Alexander Keesling,  Madelyn Cain,  Tout T. Wang,  Harry Levine,  Dolev Bluvstein,  Giulia Semeghini,  Ahmed Omran,  Jinguo Liu,  Rhine Samajdar,  Xiu-Zhe Luo,  Beatrice Nash,  Xun Gao,  Boaz Barak,  Edward Farhi,  Subir Sachdev,  Nathan Gemelke,  Leo Zhou,  Soonwon Choi,  Hannes Pichler,  Shengtao Wang,  Markus Greiner,  Vladan Vuletic,  Mikhail D. Lukin,  arxiv:2202.09372
+
+* [Unsupervised and supervised learning of interacting topological phases from single-particle correlation functions](https://arxiv.org/abs/2202.09281),  Simone Tibaldi,  Giuseppe Magnifico,  Davide Vodola,  Elisa Ercolessi,  arxiv:2202.09281
+
 * [A tensor-based entanglement measure for mixed states](https://arxiv.org/abs/2202.07420),  Christian Carisch,  Oded Zilberberg,  arxiv:2202.07420
 
 * [Fragmented Cooper pair condensation in striped superconductors](https://arxiv.org/abs/2202.05850),  Alexander Wietek,  arxiv:2202.05850
