@@ -155,8 +155,8 @@ $$
 |2\rangle = c^\dagger\_{\uparrow} c^\dagger\_{\downarrow} |0\rangle  \ .
 $$
 with the up operator coming before the down operator.
-This implies that on the one hand @@c^\dagger\_{\uparrow} |\\!\downarrow\rangle = |2\rangle@@
-while on the other @@c^\dagger\_{\downarrow} |\\!\uparrow\rangle = -|2\rangle@@.
+This implies that on the one hand @@c^\dagger\_{\uparrow} |\downarrow\rangle = |2\rangle@@
+while on the other @@c^\dagger\_{\downarrow} |\uparrow\rangle = -|2\rangle@@.
 
 ### Spinful Jordan-Wigner Transformations
 
