@@ -144,8 +144,8 @@ measuring correlation functions involving creation/annihilation operators:
 
 Fermions with spin have a local Hilbert space with four states
 * vacuum state: @@|0\rangle@@
-* up state: @@|\\!\uparrow\rangle@@ 
-* down state: @@|\\!\downarrow\rangle@@ 
+* up state: @@|\uparrow\rangle@@ 
+* down state: @@|\downarrow\rangle@@ 
 * doubly occupied state: @@|2\rangle@@ 
 
 These states can be thought of as being "created" from the vacuum by the operators
