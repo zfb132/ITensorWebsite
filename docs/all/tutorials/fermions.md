@@ -1,7 +1,5 @@
 # Fermions and Jordan-Wigner String
 
-<span class='article_sig'>Miles Stoudenmire&mdash;April 20, 2016</span>
-
 Operators in ITensor are "bosonic". By this we mean that an ITensor or IQTensor which
 represents an operator does not automatically "know" about fermion anticommutation rules.
 Even if we put in minus signs to correctly define the action of a fermionic operator on a
