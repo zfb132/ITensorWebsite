@@ -1,5 +1,14 @@
 # Time Evolving an MPS with an MPO
 
+<p style="color:red;">
+Note: this method of time evolution is no longer recommended
+as a first option, but should be used only to check results. A much better
+choice with all of the advantages of the method below is to use the 
+<a href="https://github.com/ITensor/TDVP">time-dependent variational principle (TDVP)</a> 
+method which you can download at <a href="https://github.com/ITensor/TDVP">this link</a>,
+including a sample (imaginary time evolution) code.
+</p>
+
 First set up the MPS you would like to time evolve. An easy way to do this is to make
 a product state using the InitState helper class:
 
