@@ -8,6 +8,14 @@
 
 ## 2022
 
+* [Symmetric Mass Generation in the 1+1 Dimensional Chiral Fermion 3-4-5-0 Model](https://arxiv.org/abs/2202.12355),  Meng Zeng,  Zheng Zhu,  Juven Wang,  Yi-Zhuang You,  arxiv:2202.12355
+
+* [Order, Disorder and Monopole Confinement in the Spin-$1/2$ XXZ Model on a Pyrochlore Tube](https://arxiv.org/abs/2203.00032),  Chunhan Feng,  Alexander Wietek,  E. Miles Stoudenmire,  Rajiv R. P. Singh,  arxiv:2203.00032
+
+* [Entanglement spectrum and quantum phase diagram of the long-range XXZ chain](https://arxiv.org/abs/2202.13343),  J. T. Schneider,  S. J. Thomson,  L. Sanchez-Palencia,  arxiv:2202.13343
+
+* [Hubbard model for spin-1 Haldane chains](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L081116), G. Catarina and J. Fernández-Rossier, PhysRev[B,105,081116] (2022)
+
 * [Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays](https://arxiv.org/abs/2202.09372),  Sepehr Ebadi,  Alexander Keesling,  Madelyn Cain,  Tout T. Wang,  Harry Levine,  Dolev Bluvstein,  Giulia Semeghini,  Ahmed Omran,  Jinguo Liu,  Rhine Samajdar,  Xiu-Zhe Luo,  Beatrice Nash,  Xun Gao,  Boaz Barak,  Edward Farhi,  Subir Sachdev,  Nathan Gemelke,  Leo Zhou,  Soonwon Choi,  Hannes Pichler,  Shengtao Wang,  Markus Greiner,  Vladan Vuletic,  Mikhail D. Lukin,  arxiv:2202.09372
 
 * [Unsupervised and supervised learning of interacting topological phases from single-particle correlation functions](https://arxiv.org/abs/2202.09281),  Simone Tibaldi,  Giuseppe Magnifico,  Davide Vodola,  Elisa Ercolessi,  arxiv:2202.09281
