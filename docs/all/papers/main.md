@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [Spin Entanglement and Magnetic Competition via Long-Range Interactions in Spinor Quantum Optical Lattices](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.080601), Karen Lozano-Méndez, Alejandro H. Cásares, and Santiago F. Caballero-Benítez, PhysRev[Lett,128,080601]
+
 * [Symmetric Mass Generation in the 1+1 Dimensional Chiral Fermion 3-4-5-0 Model](https://arxiv.org/abs/2202.12355),  Meng Zeng,  Zheng Zhu,  Juven Wang,  Yi-Zhuang You,  arxiv:2202.12355
 
 * [Order, Disorder and Monopole Confinement in the Spin-$1/2$ XXZ Model on a Pyrochlore Tube](https://arxiv.org/abs/2203.00032),  Chunhan Feng,  Alexander Wietek,  E. Miles Stoudenmire,  Rajiv R. P. Singh,  arxiv:2203.00032
