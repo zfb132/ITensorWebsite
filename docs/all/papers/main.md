@@ -8,6 +8,10 @@
 
 ## 2022
 
+* [Integrability breaking in the Rule 54 cellular automaton](https://arxiv.org/abs/2203.05426),  Javier Lopez-Piqueres,  Sarang Gopalakrishnan,  Romain Vasseur,  arxiv:2203.05426
+
+* [Resonant superfluidity in the Rabi-coupled spin-dependent Fermi-Hubbard model](https://arxiv.org/abs/2203.04523),  Mathias Mikkelsen,  Ryui Kaneko,  Daichi Kagamihara,  Ippei Danshita,  arxiv:2203.04523
+
 * [Spin Entanglement and Magnetic Competition via Long-Range Interactions in Spinor Quantum Optical Lattices](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.080601), Karen Lozano-Méndez, Alejandro H. Cásares, and Santiago F. Caballero-Benítez, PhysRev[Lett,128,080601]
 
 * [Symmetric Mass Generation in the 1+1 Dimensional Chiral Fermion 3-4-5-0 Model](https://arxiv.org/abs/2202.12355),  Meng Zeng,  Zheng Zhu,  Juven Wang,  Yi-Zhuang You,  arxiv:2202.12355
