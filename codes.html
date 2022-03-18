@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/img/favicon.ico"/>
+    <title>ITensor</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <a href="/" class="navbar-item has-text-weight-bold">ITensor</a>
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+
+      <div onclick="" class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Documentation
+        </a>
+
+        <div class="navbar-dropdown">
+          <a href="https://itensor.github.io/ITensors.jl/stable" class="navbar-item">
+            Julia
+          </a>
+          <a href="/docs.cgi" class="navbar-item">
+            C++
+          </a>
+          <a href="https://arxiv.org/abs/2007.14822" class="navbar-item">
+            ITensor Paper
+          </a>
+        </div>
+      </div>
+
+      <a href="/codes.html" class="navbar-item is-active">
+        Codes
+      </a>
+
+      <a href="/support/" class="navbar-item">
+        Discuss
+      </a>
+
+      <a href="/about.html" class="navbar-item">
+        About
+      </a>
+
+    </div>
+
+  </div>
+  </nav>
+
+  <section class="section"><div class="container is-max-desktop">
+
+    <!--
+
+      Official Julia Codes
+
+    -->
+    <a name="codes-julia"></a>
+    <p class="title is-4">Official Codes [Julia Language]</p>
+
+    <div class="block">
+
+      <p>
+      These are Julia packages developed by or in collaboration with
+      the ITensor team. We support these codes at the
+      same level as the core ITensor library itself.
+      </p>
+      <br/>
+
+      <a href="https://github.com/GTorlai/PastaQ.jl">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          <img style="vertical-align: middle;" width="130px" src="/img/PastaQ.jpg"/> 
+          </p>
+          <p class="subtitle">
+          PastaQ is a Julia package for working with quantum hardware and
+          quantum circuits. It includes tools for quantum state and process tomography,
+          optimization of quantum circuits, and simulations of quantum circuits.
+          </p>
+          <p>
+          <strong>Developers:</strong> Giacomo Torlai, Matt Fishman
+          </p>
+        </div>
+      </div>
+      </a>
+      <br/>
+
+      <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorGPU">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          ITensorGPU
+          </p>
+          <p class="subtitle">
+          Package enabling ITensor code to be run on NVIDIA GPUs using the CUDA.jl Julia library backend.
+          </p>
+          <p>
+          <strong>Developers:</strong> Katharine Hyatt, Matt Fishman
+          </p>
+        </div>
+      </div>
+      </a>
+      <br/>
+
+      <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorVisualizationBase">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          ITensorVisualizationBase<br/>
+          </p>
+          <p class="subtitle">
+          Tools for visualizing tensor networks with multiple graphical backend options.
+          </p>
+          <p>
+          <strong>Developers:</strong> Matt Fishman
+          </p>
+        </div>
+      </div>
+      </a>
+      <br/>
+
+      <a href="https://github.com/ITensor/ITensorInfiniteMPS.jl">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          ITensorInfiniteMPS<br/>
+          </p>
+          <p class="subtitle">
+          Package for optimizing infinite matrix product states (iMPS) with the VUMPS algorithm and working with iMPS.
+          </p>
+          <p>
+          <strong>Developers:</strong> Matt Fishman
+          </p>
+        </div>
+      </div>
+      </a>
+      <br/>
+
+      <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorGaussianMPS">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          ITensorGaussianMPS<br/>
+          </p>
+          <p class="subtitle">
+          Tools for transforming Gaussian (non-interacting) states of fermions into matrix product states (MPS).
+          </p>
+          <p>
+          <strong>Developers:</strong> Matt Fishman
+          </p>
+        </div>
+      </div>
+      </a>
+
+    </div>
+    <br/>
+
+    <!--
+
+      Official C++ Codes
+
+    -->
+    <a name="codes-julia"></a>
+    <p class="title is-4">Official Codes [C++ Language]</p>
+
+    <div class="block">
+
+      <p>
+      These are C++ codes developed by or in collaboration with
+      the ITensor team. We support these codes at the
+      same level as the core ITensor library itself.
+      </p>
+      <br/>
+
+      <a href="https://github.com/ITensor/TDVP">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          <!--
+          <img style="vertical-align: middle;" width="40px" src="/img/github_icon.png"/> 
+          -->
+          TDVP<br/>
+          </p>
+          <p class="subtitle">
+          The official implementation of the time-dependent variational principle (TDVP) algorithm for the C++ version of ITensor.
+          </p>
+          <p>
+          <strong>Developers:</strong> Mingru Yang
+          </p>
+        </div>
+      </div>
+      </a>
+
+    </div>
+    <br/>
+
+    <!--
+
+      Community Codes
+
+    -->
+    <a name="codes"></a>
+    <p class="title is-4">Community Codes</p>
+
+    <div class="block">
+
+      <p>
+      These are codes based on ITensor by other members of our community.
+      While we cannot guarantee or provide technical support for these codes,
+      we still welcome discussion of them in 
+      our <a href="https://itensor.org/support">support forum</a> and
+      encourage users to try out and contribute to these community codes.
+      </p>
+      <br/>
+
+      <a href="https://github.com/joselado/dmrgpy">
+      <div class="card">
+        <div class="card-content">
+          <p class="title is-5">
+          DMRGPy
+          </p>
+          <p class="subtitle">
+          DMRGPy is a Python library built on top of ITensor to compute quasi-one-dimensional spin chains and fermionic systems using matrix product states with DMRG as implemented in ITensor. Most of the computations can be performed both with DMRG and exact diagonalization for small systems, which allows one to benchmark the results.
+          </p>
+          <p>
+          <strong>Developers:</strong> Jose Lado
+          </p>
+        </div>
+      </div>
+      </a>
+
+    </div>
+    <br/>
+
+
+  </div></section>
+
+  <br/>
+  <br/>
+  <br/>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      &copy; 2022 ITensor Collaboration &middot; <a href="https://github.com/ITensor/ITensors.jl">ITensor Source on Github</a>
+    </p>
+  </div>
+</footer>
+
+
+  </body>
+
+<script>
+$(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+</script>
+
+
+
+</html>
