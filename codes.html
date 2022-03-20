@@ -8,6 +8,10 @@
     <title>ITensor</title>
     <link rel="stylesheet" href="css/mystyles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+    .developers { position:absolute; bottom:20px; }
+    .code-info { height: 220px; }
+    </style>
   </head>
   <body>
 
@@ -87,7 +91,7 @@
       <div class="column" style="margin-bottom:auto;">
 
         <a href="https://github.com/GTorlai/PastaQ.jl">
-        <div class="card" style="height:250px;">
+        <div class="card code-info">
           <div class="card-content">
             <p class="title is-5">
             <img style="vertical-align: middle;" width="130px" src="/img/PastaQ.jpg"/> 
@@ -96,7 +100,7 @@
             PastaQ is a package for working with quantum hardware and circuits,
             including tomography, optimization, and simulations.
             </p>
-            <p>
+            <p class="developers">
             <strong>Developers:</strong> Giacomo Torlai, Matt Fishman
             </p>
           </div>
@@ -105,7 +109,7 @@
         <br/>
 
         <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorGPU">
-        <div class="card" style="height:250px;">
+        <div class="card code-info">
           <div class="card-content">
             <p class="title is-5">
             ITensorGPU
@@ -113,7 +117,7 @@
             <p class="subtitle">
             Package enabling ITensor code to be run on NVIDIA GPUs using the CUDA.jl Julia library backend.
             </p>
-            <p>
+            <p class="developers">
             <strong>Developers:</strong> Katharine Hyatt, Matt Fishman
             </p>
           </div>
@@ -122,7 +126,7 @@
         <br/>
 
         <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorGaussianMPS">
-        <div class="card" style="height:250px;">
+        <div class="card code-info">
           <div class="card-content">
             <p class="title is-5">
             ITensorGaussianMPS<br/>
@@ -130,7 +134,7 @@
             <p class="subtitle">
             Tools for transforming Gaussian (non-interacting) states of fermions into matrix product states (MPS).
             </p>
-            <p>
+            <p class="developers">
             <strong>Developers:</strong> Matt Fishman
             </p>
           </div>
@@ -143,7 +147,7 @@
       <div class="column" style="margin-bottom:auto;">
 
       <a href="https://github.com/ITensor/ITensors.jl/tree/main/ITensorVisualizationBase">
-      <div class="card" style="height:250px;">
+      <div class="card code-info">
         <div class="card-content">
           <p class="title is-5">
           ITensorVisualizationBase<br/>
@@ -151,7 +155,7 @@
           <p class="subtitle">
           Tools for visualizing tensor networks with multiple graphical backend options.
           </p>
-          <p>
+          <p class="developers">
           <strong>Developers:</strong> Matt Fishman
           </p>
         </div>
@@ -160,7 +164,7 @@
       <br/>
 
       <a href="https://github.com/ITensor/ITensorInfiniteMPS.jl">
-      <div class="card" style="height:250px;">
+      <div class="card code-info">
         <div class="card-content">
           <p class="title is-5">
           ITensorInfiniteMPS<br/>
@@ -168,7 +172,7 @@
           <p class="subtitle">
           Package for optimizing infinite matrix product states (iMPS) with the VUMPS algorithm and working with iMPS.
           </p>
-          <p>
+          <p class="developers">
           <strong>Developers:</strong> Matt Fishman
           </p>
         </div>
@@ -206,7 +210,7 @@
         <div class="column" style="margin-bottom:auto;">
 
           <a href="https://github.com/ITensor/TDVP">
-          <div class="card" style="height:250px;">
+          <div class="card code-info">
             <div class="card-content">
               <p class="title is-5">
               <!--
@@ -217,7 +221,7 @@
               <p class="subtitle">
               The official implementation of the time-dependent variational principle (TDVP) algorithm for the C++ version of ITensor.
               </p>
-              <p>
+              <p class="developers">
               <strong>Developers:</strong> Mingru Yang
               </p>
             </div>
@@ -256,7 +260,7 @@
         <div class="column" style="margin-bottom:auto;">
 
           <a href="https://github.com/mtfishman/ITensorNetworks.jl">
-          <div class="card" style="height:250px;">
+          <div class="card code-info">
             <div class="card-content">
               <p class="title is-5">
               ITensorNetworks<br/>
@@ -264,8 +268,8 @@
               <p class="subtitle">
               A package with general tools for working with higher-dimensional tensor networks based on ITensor.
               </p>
-              <p style="position:absolute; bottom:20px;">
-              <strong>Developers:</strong> Matt Fishman, Miles Stoudenmire, Giacomo Torlai
+              <p class="developers">
+              <strong>Developers:</strong> Matt Fishman
               </p>
             </div>
           </div>
@@ -277,7 +281,7 @@
         <div class="column" style="margin-bottom:auto;">
 
           <a href="https://github.com/mtfishman/ITensorChemistry.jl">
-          <div class="card" style="height:250px;">
+          <div class="card code-info">
             <div class="card-content">
               <p class="title is-5">
               ITensorChemistry<br/>
@@ -285,7 +289,7 @@
               <p class="subtitle">
               Tools to perform chemistry DMRG and other calculations.
               </p>
-              <p>
+              <p class="developers">
               <strong>Developers:</strong> Matt Fishman
               </p>
             </div>
@@ -323,7 +327,7 @@
         <div class="column" style="margin-bottom:auto;">
 
           <a href="https://github.com/joselado/dmrgpy">
-          <div class="card" style="height:250px;">
+          <div class="card code-info">
             <div class="card-content">
               <p class="title is-5">
               DMRGPy
@@ -332,7 +336,7 @@
               DMRGPy is a Python library built on top of ITensor for DMRG, 
               matrix product states, and other calculations as well as exact diagonalization.
               </p>
-              <p>
+              <p class="developers">
               <strong>Developers:</strong> Jose Lado
               </p>
             </div>
