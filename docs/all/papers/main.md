@@ -8,6 +8,10 @@
 
 ## 2022
 
+* [Real-time non-adiabatic dynamics in the one-dimensional Holstein model: trajectory-based versus exact methods](https://arxiv.org/abs/2203.07245),  Michael ten Brink,  Stefan Gräber,  Miroslav Hopjan,  David Jansen,  Jan Stolpp,  Fabian Heidrich-Meisner,  Peter E. Blöchl,  arxiv:2203.07245
+
+* [Nonlocal correlations in noisy multiqubit systems simulated using matrix product operators](https://arxiv.org/abs/2203.05871),  H. Landa,  G. Misguich,  arxiv:2203.05871
+
 * [Integrability breaking in the Rule 54 cellular automaton](https://arxiv.org/abs/2203.05426),  Javier Lopez-Piqueres,  Sarang Gopalakrishnan,  Romain Vasseur,  arxiv:2203.05426
 
 * [Resonant superfluidity in the Rabi-coupled spin-dependent Fermi-Hubbard model](https://arxiv.org/abs/2203.04523),  Mathias Mikkelsen,  Ryui Kaneko,  Daichi Kagamihara,  Ippei Danshita,  arxiv:2203.04523
