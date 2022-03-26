@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [Long-Range Order and Quantum Criticality in Antiferromagnetic Chains with Long-Range Staggered Interactions](https://doi.org/10.1103/PhysRevE.105.034128),  Jie Ren,  Zhao Wang,  Weixia Chen,  Wen-Long You,  <i style="color:#CC0000;">Phys. Rev. E 105, 034128 (2022)</i>, arxiv:2203.11032
+
 * [Real-time non-adiabatic dynamics in the one-dimensional Holstein model: trajectory-based versus exact methods](https://arxiv.org/abs/2203.07245),  Michael ten Brink,  Stefan Gräber,  Miroslav Hopjan,  David Jansen,  Jan Stolpp,  Fabian Heidrich-Meisner,  Peter E. Blöchl,  arxiv:2203.07245
 
 * [Nonlocal correlations in noisy multiqubit systems simulated using matrix product operators](https://arxiv.org/abs/2203.05871),  H. Landa,  G. Misguich,  arxiv:2203.05871
