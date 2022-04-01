@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [Continuous Ferromagnetic Quantum Phase Transition on Anisotropic Kondo Lattice](https://arxiv.org/abs/2203.15475),  Jialin Chen,  Jiangfan Wang,  Danqing Hu,  Yi-feng Yang,  arxiv:2203.15475
+
 * [Long-Range Order and Quantum Criticality in Antiferromagnetic Chains with Long-Range Staggered Interactions](https://doi.org/10.1103/PhysRevE.105.034128),  Jie Ren,  Zhao Wang,  Weixia Chen,  Wen-Long You,  <i style="color:#CC0000;">Phys. Rev. E 105, 034128 (2022)</i>, arxiv:2203.11032
 
 * [Real-time non-adiabatic dynamics in the one-dimensional Holstein model: trajectory-based versus exact methods](https://arxiv.org/abs/2203.07245),  Michael ten Brink,  Stefan Gräber,  Miroslav Hopjan,  David Jansen,  Jan Stolpp,  Fabian Heidrich-Meisner,  Peter E. Blöchl,  arxiv:2203.07245
