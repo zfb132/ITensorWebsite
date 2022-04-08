@@ -8,6 +8,10 @@
 
 ## 2022
 
+* [Superfluidity in the one-dimensional Bose-Hubbard model](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.134502), Thomas G. Kiely, Erich J. Mueller, PhysRev[B,105,134502] (2022)
+
+* [Embedding of Time-Delayed Quantum Feedback in a Nonreciprocal Array](https://arxiv.org/abs/2204.02367),  Xin H. H. Zhang,  S. H. L. Klapp,  A. Metelmann,  arxiv:2204.02367
+
 * [Characterization and Verification of Trotterized Digital Quantum Simulation via Hamiltonian and Liouvillian Learning](https://arxiv.org/abs/2203.15846),  Lorenzo Pastori,  Tobias Olsacher,  Christian Kokail,  Peter Zoller,  arxiv:2203.15846
 
 * [Commensurate-Incommensurate Transitions of the 1D Disordered Chiral Clock Model](https://arxiv.org/abs/2203.16879),  Pengfei Liang,  Rosario Fazio,  Stefano Chesi,  arxiv:2203.16879
