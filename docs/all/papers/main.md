@@ -8,6 +8,10 @@
 
 ## 2022
 
+* [Tunable Stripe Order and Weak Superconductivity in the Moiré Hubbard Model](https://arxiv.org/abs/2204.04229),  Alexander Wietek,  Jie Wang,  Jiawei Zang,  Jennifer Cano,  Antoine Georges,  Andrew Millis,  arxiv:2204.04229
+
+* [Gradient corrections to the local density approximation in the one-dimensional Bose gas](https://arxiv.org/abs/2204.05658),  François Riggio,  Yannis Brun,  Dragi Karevski,  Alexandre Faribault,  Jérôme Dubail,  arxiv:2204.05658
+
 * [Superfluidity in the one-dimensional Bose-Hubbard model](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.134502), Thomas G. Kiely, Erich J. Mueller, PhysRev[B,105,134502] (2022)
 
 * [Embedding of Time-Delayed Quantum Feedback in a Nonreciprocal Array](https://arxiv.org/abs/2204.02367),  Xin H. H. Zhang,  S. H. L. Klapp,  A. Metelmann,  arxiv:2204.02367
