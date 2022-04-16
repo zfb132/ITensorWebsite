@@ -11,12 +11,6 @@ to evolve matrix product states (MPS) in real and imaginary time.
              Real tstep,
              MPS & psi,
              Args args = Args::global()) -> Real
-
-   gateTEvol(Iterable gatelist,
-             Real ttotal,
-             Real tstep,
-             IQMPS & psi,
-             Args args = Args::global()) -> Real
    ```
 
    Time evolve an MPS by applying a set of Trotter "gates". A gate is conceptually
