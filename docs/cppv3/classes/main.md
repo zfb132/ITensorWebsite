@@ -66,6 +66,8 @@ its actual signature is `f(ITensor const& T)`.
 
 * [[AutoMPO|classes/autompo]]. System for making MPOs from sums of local operators. <br/>
 
+* [[Time Evolution of MPS|classes/tevol]]. Methods for time evolving MPS.
+
 ## Density matrix renormalization group (DMRG)
 
 * [[Sweeps|classes/sweeps]]. Class for specifying DMRG accuracy parameters.
