@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [One- and two-axis squeezing via laser coupling in an atomic Fermi-Hubbard model](https://arxiv.org/abs/2204.06065),  T. Hernández Yanes,  M. Płodzień,  M. Mackoit Sinkevičienė,  G. Žlabys,  G. Juzeliūnas,  E. Witkowska,  arxiv:2204.06065
+
 * [Tunable Stripe Order and Weak Superconductivity in the Moiré Hubbard Model](https://arxiv.org/abs/2204.04229),  Alexander Wietek,  Jie Wang,  Jiawei Zang,  Jennifer Cano,  Antoine Georges,  Andrew Millis,  arxiv:2204.04229
 
 * [Gradient corrections to the local density approximation in the one-dimensional Bose gas](https://arxiv.org/abs/2204.05658),  François Riggio,  Yannis Brun,  Dragi Karevski,  Alexandre Faribault,  Jérôme Dubail,  arxiv:2204.05658
