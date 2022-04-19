@@ -40,6 +40,31 @@
       auto res = sum(terms,{"Cutoff",1E-8});
 
 
+## Measuring Properties of MPS
+
+* `expect(MPS psi, SiteSet sites, string A) -> vector<Real>` <br/>
+  `expectC(MPS psi, SiteSet sites, string A) -> vector<Cplx>`
+
+  Compute the expected value @@\langle\psi| \hat{A} |\psi\rangle@@ for 
+  an operator `A` on every site, returning a `vector` of the results.
+  The operator can be any operator name recognized by the `SiteSet`,
+  such as `"Sz"` for the `SpinHalf` SiteSet. The function `expectC`
+  returns a vector of complex values and should be used when complex
+  results are expected.
+
+  <div class="example_clicker">Show Example</div>
+
+      auto exsz = expect(psi,sites,"Sz");
+
+* `expect(MPS psi, SiteSet sites, vector<string> ops) -> vector<vector<Real>>` <br/>
+  `expectC(MPS psi, SiteSet sites, vector<string> ops) -> vector<vector<Cplx>>`
+
+  Compute the expected value of a set of operators `ops` for each site
+  of the MPS `psi`. Similar to calling the single-operator version of 
+  `expect` above but is more efficient. The returned value is a vector of 
+  vectors, one for each operator, containing the expected values on each site.
+
+
 ## Inner Products and Expectation Values
 
 * `inner(MPS y, MPS x) -> Real` <br/>
