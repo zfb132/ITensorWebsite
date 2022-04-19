@@ -64,6 +64,22 @@
   `expect` above but is more efficient. The returned value is a vector of 
   vectors, one for each operator, containing the expected values on each site.
 
+  <div class="example_clicker">Show Example</div>
+
+      auto ex = expect(psi,sites,{"Sz","Sx","Sy"});
+
+
+* `correlationMatrix(MPS psi, SiteSet sites, string A, string B) -> vector<vector<Real>>`
+  `correlationMatrixC(MPS psi, SiteSet sites, string A, string B) -> vector<vector<Cplx>>`
+
+  Given an MPS `psi`, a `SiteSet`, and two strings denoting operators 
+  computes the two-point correlation function matrix @@M_{ij} = \langle\psi| \hat{A}_i \hat{B}_j |\psi\rangle@@ 
+  using efficient MPS techniques. Returns the matrix M.
+
+  <div class="example_clicker">Show Example</div>
+
+      auto czz = correlationMatrix(psi,sites,"Sz","Sz");
+      auto cpm = correlationMatrix(psi,sites,"S+","S-");
 
 ## Inner Products and Expectation Values
 
