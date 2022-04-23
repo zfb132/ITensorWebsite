@@ -8,6 +8,12 @@
 
 ## 2022
 
+* [Entanglement and quantum correlations in the XX spin-$1/2$ honeycomb lattice](https://arxiv.org/abs/2204.07708),  S. Satoori,  S. Mahdavifar,  J. Vahedi,  arxiv:2204.07708
+
+* [Lee-Yang theory of the two-dimensional quantum Ising model](https://arxiv.org/abs/2204.08223),  Pascal M. Vecsei,  Jose L. Lado,  Christian Flindt,  arxiv:2204.08223
+
+* [Weak ergodicity breaking in Josephson-junctions arrays](https://arxiv.org/abs/2204.08047),  Angelo Russomanno,  Michele Fava,  Rosario Fazio,  arxiv:2204.08047
+
 * [One- and two-axis squeezing via laser coupling in an atomic Fermi-Hubbard model](https://arxiv.org/abs/2204.06065),  T. Hernández Yanes,  M. Płodzień,  M. Mackoit Sinkevičienė,  G. Žlabys,  G. Juzeliūnas,  E. Witkowska,  arxiv:2204.06065
 
 * [Tunable Stripe Order and Weak Superconductivity in the Moiré Hubbard Model](https://arxiv.org/abs/2204.04229),  Alexander Wietek,  Jie Wang,  Jiawei Zang,  Jennifer Cano,  Antoine Georges,  Andrew Millis,  arxiv:2204.04229
@@ -123,7 +129,7 @@
 
 * [Entanglement dynamics in confining spin chains](https://arxiv.org/abs/2111.11483),  Stefano Scopa,  Pasquale Calabrese,  Alvise Bastianello,  arxiv:2111.11483
 
-* [Kinetic formation of trimers in a spinless fermionic chain](https://arxiv.org/abs/2111.10316),  Lorenzo Gotta,  Leonardo Mazza,  Pascal Simon,  Guillaume Roux,  arxiv:2111.10316
+* [Kinetic formation of trimers in a spinless fermionic chain](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.134512),  Lorenzo Gotta,  Leonardo Mazza,  Pascal Simon,  Guillaume Roux, PhysRev[B,105,134512]  [arxiv:2111.10316]
 
 * [Dynamical anyon generation in Kitaev honeycomb non-Abelian spin liquids](https://arxiv.org/abs/2111.09325),  Yue Liu,  Kevin Slagle,  Kenneth S. Burch,  Jason Alicea,  arxiv:2111.09325
 
