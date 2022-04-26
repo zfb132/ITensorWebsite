@@ -8,6 +8,14 @@
 
 ## 2022
 
+* [Ab initio guided minimal model for the "Kitaev" material BaCo$_2$(AsO$_4$)$_2$: Importance of direct hopping, third-neighbor exchange and quantum fluctuations](https://arxiv.org/abs/2204.09695),  Pavel A. Maksimov,  Alexey V. Ushakov,  Zlata V. Pchelkina,  Ying Li,  Stephen M. Winter,  Sergey V. Streltsov,  arxiv:2204.09695
+
+* [Photoinduced metallization of excitonic insulators](https://arxiv.org/abs/2204.09085),  Satoshi Ejima,  Florian Lange,  Holger Fehske,  arxiv:2204.09085
+
+* [Few-body clusters in a multiband Hubbard model: Tetramers, pentamers, and beyond](https://arxiv.org/abs/2204.10003),  M. Iskin,  A. Keleş,  arxiv:2204.10003
+
+* [Scalable measures of magic for quantum computers](https://arxiv.org/abs/2204.10061),  Tobias Haug,  M. S. Kim,  arxiv:2204.10061
+
 * [Entanglement and quantum correlations in the XX spin-$1/2$ honeycomb lattice](https://arxiv.org/abs/2204.07708),  S. Satoori,  S. Mahdavifar,  J. Vahedi,  arxiv:2204.07708
 
 * [Lee-Yang theory of the two-dimensional quantum Ising model](https://arxiv.org/abs/2204.08223),  Pascal M. Vecsei,  Jose L. Lado,  Christian Flindt,  arxiv:2204.08223
