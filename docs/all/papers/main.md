@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [Atomtronic multi-terminal Aharonov-Bohm interferometer](https://arxiv.org/abs/2205.01636),  Jonathan Wei Zhong Lau,  Koon Siang Gan,  Rainer Dumke,  Luigi Amico,  Leong-Chuan Kwek,  Tobias Haug,  arxiv:2205.01636
+
 * [Propagation of errors and quantitative quantum simulation with quantum advantage](https://arxiv.org/abs/2204.13644),  S. Flannigan,  N. Pearson,  G. H. Low,  A. Buyskikh,  I. Bloch,  P. Zoller,  M. Troyer,  A. J. Daley,  arxiv:2204.13644
 
 * [Ab initio guided minimal model for the "Kitaev" material BaCo$_2$(AsO$_4$)$_2$: Importance of direct hopping, third-neighbor exchange and quantum fluctuations](https://arxiv.org/abs/2204.09695),  Pavel A. Maksimov,  Alexey V. Ushakov,  Zlata V. Pchelkina,  Ying Li,  Stephen M. Winter,  Sergey V. Streltsov,  arxiv:2204.09695
