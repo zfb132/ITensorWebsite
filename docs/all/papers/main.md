@@ -139,7 +139,7 @@
 
 * [Conformal Boundary Conditions of Symmetry-Enriched Quantum Critical Spin Chains](https://arxiv.org/abs/2111.10945),  Xue-Jia Yu,  Rui-Zhen Huang,  Hong-Hao Song,  Limei Xu,  Chengxiang Ding,  Long Zhang,  arxiv:2111.10945
 
-* [Edge Z3 parafermions in fermionic lattices](https://arxiv.org/abs/2111.10147),  Raphael L. R. C. Teixeira,  Luis G. G. V. Dias da Silva,  arxiv:2111.10147
+* [Edge Z3 parafermions in fermionic lattices](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.195121),  Raphael L. R. C. Teixeira,  Luis G. G. V. Dias da Silva,  PhysRev[B,105,195121] [arxiv:2111.10147]
 
 * [Entanglement dynamics in confining spin chains](https://arxiv.org/abs/2111.11483),  Stefano Scopa,  Pasquale Calabrese,  Alvise Bastianello,  arxiv:2111.11483
 
