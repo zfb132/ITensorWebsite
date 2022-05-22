@@ -23,7 +23,7 @@ If you do not have git on your computer, you can obtain it through your package 
    * On Linux, the `g++` (gcc) program is typically available. Many package managers
      offer a lapack-devel package which includes the LAPACK headers.
    * On Windows, the best option is to install a version of Unix. An Ubuntu Linux 
-     terminal can be installed for Windows 10. Another option is to install 
+     terminal can be installed for Windows 10, you can find more details at <a href="https://docs.microsoft.com/windows/wsl" target="blank_">WSL</a>. Another option is to install 
      <a href="https://www.cygwin.com" target="blank_">Cygwin</a>,
      which lets you run Unix programs inside a terminal. If you use Cygwin, make sure to install
      the C++ compiler (gcc) and LAPACK packages.
