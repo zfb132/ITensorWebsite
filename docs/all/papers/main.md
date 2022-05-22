@@ -8,6 +8,8 @@
 
 ## 2022
 
+* [Excitonic effects on high-harmonic generation in Mott insulators](https://arxiv.org/abs/2205.06390),  Mina Udono,  Koudai Sugimoto,  Tatsuya Kaneko,  Yukinori Ohta,  arxiv:2205.06390
+
 * [Tensor network calculation of the logarithmic correction exponent in the XY model](https://arxiv.org/abs/2205.02773),  Seongpyo Hong,  Dong-Hee Kim,  arxiv:2205.02773
 
 * [Atomtronic multi-terminal Aharonov-Bohm interferometer](https://arxiv.org/abs/2205.01636),  Jonathan Wei Zhong Lau,  Koon Siang Gan,  Rainer Dumke,  Luigi Amico,  Leong-Chuan Kwek,  Tobias Haug,  arxiv:2205.01636
